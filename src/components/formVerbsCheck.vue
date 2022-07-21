@@ -13,7 +13,7 @@
     Simple Past: &nbsp;&nbsp;
     <input type="text" 
     id="sPast" 
-    placeholder="простое прошедшее" />
+    placeholder="простое прошедшее"/>
     </div>
 
     <div>
