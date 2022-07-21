@@ -1,7 +1,8 @@
 <template>
     <h1>Изучаем неправильные глаголы</h1>  
     <h2>Введите имя глагола:</h2>
-    <h1>{{rend}}</h1>
+    <h3>{{irregularVerb}} {{translate}} {{simplePastV}} {{simpleParticipleV}}</h3>
+    <h3>{{}}</h3>
     <div>
     Translate: &nbsp;&nbsp;
     <input type="text" 
@@ -27,7 +28,13 @@
 
 <script>
 export default{
-  props:{rend: String } 
+  props:{
+    irregularVerb: String,
+    translate: String,
+    simplePastV: String,
+    simpleParticipleV: String
+
+  } 
 }
 
 </script>

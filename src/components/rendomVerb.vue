@@ -1,6 +1,11 @@
 <template>
  
-  <formVerbs v-bind:rend=verbForms[rendomNumFromVerbs][0] />
+  <formVerbs 
+  :irregularVerb = verbForms[rendomNumFromVerbs][0]
+  :translate = verbForms[rendomNumFromVerbs][1]
+  :simplePastV = verbForms[rendomNumFromVerbs][2]
+  :simpleParticipleV = verbForms[rendomNumFromVerbs][3]
+   />
     <div>
        
     </div>
